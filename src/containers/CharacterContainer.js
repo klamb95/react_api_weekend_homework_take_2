@@ -25,7 +25,7 @@ const CharacterContainer = () => {
 
     return (
         <div>
-            <p>CharacterContainer</p>
+            <h2>Select A Character</h2>
             <CharacterSelector characters={characters} onCharacterSelected={onCharacterSelected}/>
             {selectedCharacter ? <CharacterDetail selectedCharacter={selectedCharacter}/> : null}
             

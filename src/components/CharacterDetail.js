@@ -5,7 +5,10 @@ const CharacterDetail = ({selectedCharacter}) => {
     return (
 
         <div>
-            <h3>{selectedCharacter.name}</h3>
+            <h3>Name: {selectedCharacter.name}</h3>
+            <p>Birthday: {selectedCharacter.birthday}</p>
+            <p>Actor: {selectedCharacter.portrayed}</p>
+            <p>Alive/Dead? {selectedCharacter.status}</p>
         </div>
 
     )
