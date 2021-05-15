@@ -8,6 +8,7 @@ function App() {
     <div className="App">
      <h1>Breaking Bad Characters</h1>
      <CharacterContainer/>
+     <br></br>
      <img src={BreakingBad} className='BBimg' alt="logo"/>
     </div>
   );
